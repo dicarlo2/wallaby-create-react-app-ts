@@ -11,4 +11,5 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 
   expect(Dependency.getResult()).toBe('mockedResult');
+  expect(1).toMatchInlineSnapshot();
 });
